@@ -149,7 +149,7 @@ class BuyNowPage extends StatelessWidget {
             Text('Price: \$BDT $price'),
             const SizedBox(height: 16.0),
             DropdownButton<String>(
-              items: ['Bkash', 'Nagad', 'C O D']
+              items: ['Bkash', 'Nagad', 'Cash on Delivery']
                   .map((String option) {
                     return DropdownMenuItem<String>(
                       value: option,
