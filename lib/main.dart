@@ -34,15 +34,7 @@ class FirstPage extends StatelessWidget {
             price: 250.0,
             description: '"Himu Samagra Part -1\" by Humayun Ahmed is a captivating collection featuring the eccentric character Himu. Filled with humor and philosophy, the stories delve into Himu\'s unconventional adventures, offering a delightful and engaging literary experience.',
           ),
-          BookCard(
-            imageUrl: 'https://m.media-amazon.com/images/I/41O2iwXeUBL._SY342_.jpg',
-            bookName: 'Misir Ali Samagra Vol.1',
-            authorName: 'Humayun Ahmed',
-            rating: 4.5,
-            price: 290.0,
-            description: '"Misir Ali Samagra Vol.1" is a captivating collection of novels by Humayun Ahmed, showcasing the brilliant and unconventional psychologist, Misir Ali. Through suspenseful storytelling, the volume explores the complexities of human psychology, offering a thought-provoking journey into the mind of this enigmatic character.',
-          ),
-          // Add more BookCard widgets as needed
+         
         ],
       ),
     );
