@@ -34,7 +34,13 @@ class FirstPage extends StatelessWidget {
             price: 250.0,
             description: '"Himu Samagra Part -1\" by Humayun Ahmed is a captivating collection featuring the eccentric character Himu. Filled with humor and philosophy, the stories delve into Himu\'s unconventional adventures, offering a delightful and engaging literary experience.',
           ),
-         
+          BookCard(
+            imageUrl: 'https://m.media-amazon.com/images/I/41jvHRaP3ZL._SY445_SX342_.jpg',
+            bookName: 'Shonkhonil Karagar',
+            authorName: 'Humayun Ahmed',
+            rating: 4.5,
+            price: 260.0,
+            description: 'Shonkhonil Karagar is a 1973 novel in Bengali by Bangladeshi author Humayun Ahmed. It is also a book that was made into a popular movie in Bangladesh. The book was made into the 1992 film with the same title, starring Zafar Iqbal, Champa, Doli Johur, Abul Hayat, Suborna Mustafa and Asaduzzaman Noor. It was filmed in 1992 in Dhaka, Bangladesh.' ),
         ],
       ),
     );
@@ -143,11 +149,11 @@ class BuyNowPage extends StatelessWidget {
             DropdownButton<String>(
               items: ['Bkash', 'Nagad', 'Cash on Delivery']
                   .map((String option) {
-                    return DropdownMenuItem<String>(
-                      value: option,
-                      child: Text(option),
-                    );
-                  })
+                return DropdownMenuItem<String>(
+                  value: option,
+                  child: Text(option),
+                );
+              })
                   .toList(),
               onChanged: (String? value) {
                 // Handle dropdown item selection
